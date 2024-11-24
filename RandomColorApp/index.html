@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RandomColorMeeen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    
+    <input type="range" min="0" max="255" value="10" id="red">
+    <label for="red">Kirmizi</label>
+    <input type="range" min="0" max="255" value="111" id="green">
+    <label for="green">Yeşil</label>
+    <input type="range" min="0" max="255" value="122" id="blue">
+    <label for="blue">Mavi</label>
+    <div class="color-preview"></div>
+
+    <button onclick="generateRandomColor()">Rastgele Renk Üret</button>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
