@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 25px auto;
+    background-color: #ffffff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+  }
+  
+  .color-preview {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+  }
+
